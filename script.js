@@ -2,6 +2,6 @@
 let body=document.querySelector('body');
 document.addEventListener('DOMContentLoaded',e =>{
 	let content=document.createElement('p');
-	content.textContent="DOM load sucess";
+	content.textContent="DOM load success";
 	body.appendChild(content);
 })
